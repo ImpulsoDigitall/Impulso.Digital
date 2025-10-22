@@ -1,0 +1,113 @@
+/* --- Estilos da Seção de Formulário --- */
+
+.form-section {
+    background-color: var(--cor-fundo-alternativo);
+    padding: 60px 0;
+    min-height: 80vh;
+}
+
+.form-section h2 {
+    color: var(--cor-primaria);
+}
+
+.subtitle-form {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    color: #666;
+    font-size: 1.1rem;
+}
+
+.acesso-form {
+    max-width: 750px;
+    margin: 0 auto;
+    background: var(--cor-fundo-claro);
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Fieldset (Sessões) */
+fieldset {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+legend {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--cor-texto-escuro);
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    background-color: var(--cor-primaria);
+    padding: 4px;
+    border-radius: 4px;
+}
+
+/* Grupos de Formulário */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+.form-group input:focus {
+    border-color: var(--cor-primaria);
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+.aviso-seguranca {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--cor-secundaria);
+    margin-top: 5px;
+}
+
+/* Botão de Envio */
+.btn-submit {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    padding: 15px 0;
+}
+
+.final-warning {
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 25px;
+    padding: 15px;
+    border-top: 1px dashed #ddd;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .acesso-form {
+        padding: 20px;
+    }
+    legend {
+        font-size: 1.2rem;
+    }
+}
